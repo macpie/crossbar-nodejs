@@ -20,7 +20,7 @@
     },
     "dependencies": {
         "underscore": " >= 1.5.2",
-        "underscore": " >= 2.33.0",
+        "request": " >= 2.33.0",
         "jsonschema": " >= 0.4.0"
     },
     "engine": "node >= 0.10.0"
