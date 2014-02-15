@@ -32,11 +32,11 @@ crossbar.api.user_auth.put({
 
 ### Options
 
-Key			Description     		Default
-
-url:		server url				none
-validate:	validate data payload	false
-version:	api version				"v1"
-port:		server port				8000
+| Key | Description | Default |
+| --- | ----------- | ------- |
+| url | server url | none |
+| validate | validate data payload | false |
+| version | api version | "v1" |
+| port | server port | 8000 |
 
 
