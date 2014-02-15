@@ -1,6 +1,6 @@
 # Crossbar.js
 
-Crossbar.js is still in progress. For now only "user_auth" & "accounts" apis are available> more will come soon.
+Crossbar.js is still in progress. For now only "user_auth" & "accounts" apis are available more will come soon.
 
 APIS descriptions: https://2600hz.atlassian.net/wiki/display/docs/Developer+APIs
 
