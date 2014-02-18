@@ -17,7 +17,7 @@ var crossbar = new Crossbar({
 
 crossbar.api.user_auth.put({
 	'data': {
-		// md5("username:passowrd")
+		// md5("username:password")
 		'credentials': "25a55eeb4b43f69e83128d5859a08a3a",
 		'account_name': "macpie"
 	}
