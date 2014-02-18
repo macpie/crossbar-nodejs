@@ -1,6 +1,6 @@
 {
     "name": "crossbar",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "homepage": "https://github.com/macpie/crossbar-nodejs",
     "description": "Node.js SDK for Kazoo apis",
     "main": "./lib/crossbar.js",
