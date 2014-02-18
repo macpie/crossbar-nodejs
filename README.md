@@ -1,11 +1,13 @@
 # Crossbar.js
 
-Crossbar.js is still in progress. For now only "user_auth" & "accounts" apis are available more will come soon.
+Crossbar.js is a node.js sdk for Kazoo.
 
-APIS descriptions: https://2600hz.atlassian.net/wiki/display/docs/Developer+APIs
+APIS descriptions: https://2600hz.atlassian.net/wiki/display/APIs/Developer+APIs
 
+Current apis:
+accounts, devices, users, user_auth.
 
-## Examples
+# Examples
 
 ```javascript
 var Crossbar = require('crossbar');
@@ -30,7 +32,7 @@ crossbar.api.user_auth.put({
 });
 ```
 
-### Options
+# Options
 
 | Key | Description | Default |
 | --- | ----------- | ------- |
@@ -38,5 +40,13 @@ crossbar.api.user_auth.put({
 | validate | validate data payload | false |
 | version | api version | "v1" |
 | port | server port | 8000 |
+
+# Changelog
+
+v0.1.1:
+
+* Adding new apis: devices, users
+* Complete accounts api
+
 
 
