@@ -16,7 +16,7 @@ var crossbar = new Crossbar({
    'url': "http://127.0.0.1"
 });
 
-cb.api.create_user_auth({
+cb.api.user_auth.create_user_auth({
     "data": {
         "credentials": "3a2714f1b60a3d68310db1cbab1ab896",
         "account_name": "macpie"
@@ -25,7 +25,7 @@ cb.api.create_user_auth({
 
     cb.set_auth_token(body.auth_token);
 
-    cb.api.get_devices({
+    cb.api.devices.get_devices({
         "url_params": {
             "account_id": "1760753c8d022d650418fbbe6a1a10e0"
         }
