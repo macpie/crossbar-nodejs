@@ -12,7 +12,7 @@ accounts, devices, users, user_auth.
 ```javascript
 var Crossbar = require('crossbar');
 
-var crossbar = new Crossbar({
+var cb = new Crossbar({
    'url': "http://127.0.0.1"
 });
 
