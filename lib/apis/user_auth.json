@@ -1,0 +1,7 @@
+{
+    "create_user_auth": {
+        "method": "PUT",
+        "url": "/user_auth",
+        "auth_required": false
+    }
+}

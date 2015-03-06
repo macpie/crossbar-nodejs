@@ -13,22 +13,25 @@ accounts, devices, users, user_auth.
 var Crossbar = require('crossbar');
 
 var crossbar = new Crossbar({
-   'url': "http://127.0.0.1",
-   'validate': true
+   'url': "http://127.0.0.1"
 });
 
-crossbar.api.user_auth.put({
-	'data': {
-		// md5("username:password")
-		'credentials': "25a55eeb4b43f69e83128d5859a08a3a",
-		'account_name': "macpie"
-	}
-}, function(err, data) {
-	crossbar.api.accounts.get({
-		'account_id': "some_random_account_id"
-	}, function(err, account) {
-		console.log(account);
-	});
+cb.api.create_user_auth({
+    "data": {
+        "credentials": "3a2714f1b60a3d68310db1cbab1ab896",
+        "account_name": "macpie"
+    },
+}, function(err, body) {
+
+    cb.set_auth_token(body.auth_token);
+
+    cb.api.get_devices({
+        "url_params": {
+            "account_id": "1760753c8d022d650418fbbe6a1a10e0"
+        }
+    }, function(err, body) {
+        console.log(err, body);
+    });
 });
 ```
 
@@ -36,12 +39,16 @@ crossbar.api.user_auth.put({
 
 | Key | Description | Default |
 | --- | ----------- | ------- |
-| url | server url | none |
-| validate | validate data payload | false |
+| url | server url | "http://127.0.0.1" |
 | version | api version | "v1" |
 | port | server port | 8000 |
 
 # Changelog
+
+
+v1.0.0:
+
+* Re-writing
 
 v0.1.1:
 
