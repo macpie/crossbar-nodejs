@@ -1,0 +1,37 @@
+{
+    "get_users": {
+        "method": "GET",
+        "url": "/accounts/{{account_id}}/users",
+        "auth_required": true
+    },
+    "get_user": {
+        "method": "GET",
+        "url": "/accounts/{{account_id}}/users/{{user_id}}",
+        "auth_required": true
+    },
+    "create_user": {
+        "method": "PUT",
+        "url": "/accounts/{{account_id}}/users",
+        "auth_required": true
+    },
+    "update_user":{
+        "method": "POST",
+        "url": "/accounts/{{account_id}}/users/{{user_id}}",
+        "auth_required": true
+    },
+    "delete_user":{
+        "method": "DELETE",
+        "url": "/accounts/{{account_id}}/users/{{user_id}}",
+        "auth_required": true
+    },
+    "get_channels":{
+        "method": "GET",
+        "url": "/accounts/{{account_id}}/users/{{user_id}}/channels",
+        "auth_required": true
+    },
+    "get_quickcall":{
+        "method": "GET",
+        "url": "/accounts/{{account_id}}/users/{{user_id}}/quickcall/{{device_id}}",
+        "auth_required": true
+    }
+}
