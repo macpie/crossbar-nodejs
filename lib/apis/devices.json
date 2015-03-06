@@ -1,0 +1,32 @@
+{
+    "get_devices": {
+        "method": "GET",
+        "url": "/accounts/{{account_id}}/devices",
+        "auth_required": true
+    },
+    "get_device": {
+        "method": "GET",
+        "url": "/accounts/{{account_id}}/devices/{{device_id}}",
+        "auth_required": true
+    },
+    "create_device": {
+        "method": "PUT",
+        "url": "/accounts/{{account_id}}/devices",
+        "auth_required": true
+    },
+    "update_device":{
+        "method": "POST",
+        "url": "/accounts/{{account_id}}/devices/{{device_id}}",
+        "auth_required": true
+    },
+    "delete_device":{
+        "method": "DELETE",
+        "url": "/accounts/{{account_id}}/devices/{{device_id}}",
+        "auth_required": true
+    },
+    "get_devices_status":{
+        "method": "GET",
+        "url": "/accounts/{{account_id}}/devices/status",
+        "auth_required": true
+    }
+}

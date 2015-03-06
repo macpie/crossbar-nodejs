@@ -1,28 +1,27 @@
 {
-    "name": "crossbar",
-    "version": "0.1.1",
-    "homepage": "https://github.com/macpie/crossbar-nodejs",
-    "description": "Node.js SDK for Kazoo apis",
-    "main": "./lib/crossbar.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/macpie/crossbar-nodejs.git"
-    },
-    "keywords": [
-        "api",
-        "crossbar",
-        "kazoo",
-        "sdk"
-    ],
-    "author": "Peter Defebvre",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/macpie/crossbar-nodejs/issues"
-    },
-    "dependencies": {
-        "underscore": " >= 1.5.2",
-        "request": " >= 2.33.0",
-        "jsonschema": " >= 0.4.0"
-    },
-    "engine": "node >= 0.10.0"
+  "name": "crossbar",
+  "version": "1.0.0",
+  "homepage": "https://github.com/macpie/crossbar-nodejs",
+  "description": "Node.js SDK for Kazoo apis",
+  "main": "./lib/crossbar.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/macpie/crossbar-nodejs.git"
+  },
+  "keywords": [
+    "api",
+    "crossbar",
+    "kazoo",
+    "sdk"
+  ],
+  "author": "Peter Defebvre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/macpie/crossbar-nodejs/issues"
+  },
+  "dependencies": {
+    "mustache": "^1.1.0",
+    "request": " >= 2.33.0"
+  },
+  "engine": "node >= 0.10.0"
 }

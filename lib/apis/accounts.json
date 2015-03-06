@@ -1,0 +1,47 @@
+{
+    "get_account": {
+        "method": "GET",
+        "url": "/accounts/{{account_id}}",
+        "auth_required": true
+    },
+    "create_account": {
+        "method": "PUT",
+        "url": "/accounts/{{account_id}}",
+        "auth_required": true
+    },
+    "update_account":{
+        "method": "POST",
+        "url": "/accounts/{{account_id}}",
+        "auth_required": true
+    },
+    "delete_account":{
+        "method": "DELETE",
+        "url": "/accounts/{{account_id}}",
+        "auth_required": true
+    },
+    "get_ancestors":{
+        "method": "GET",
+        "url": "/accounts/{{account_id}}/ancestors",
+        "auth_required": true
+    },
+    "get_children":{
+        "method": "GET",
+        "url": "/accounts/{{account_id}}/children",
+        "auth_required": true
+    },
+    "get_descendants":{
+        "method": "GET",
+        "url": "/accounts/{{account_id}}/descendants",
+        "auth_required": true
+    },
+    "get_siblings":{
+        "method": "GET",
+        "url": "/accounts/{{account_id}}/siblings",
+        "auth_required": true
+    },
+    "get_channels":{
+        "method": "GET",
+        "url": "/accounts/{{account_id}}/channels",
+        "auth_required": true
+    }
+}
