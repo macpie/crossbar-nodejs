@@ -3,5 +3,10 @@
         "method": "PUT",
         "url": "/user_auth",
         "auth_required": false
+    },
+    "get_user_auth": {
+        "method": "GET",
+        "url": "/accounts/{{account_id}}/user_auth/{{auth_token}}",
+        "auth_required": true
     }
 }

@@ -43,5 +43,15 @@
         "method": "GET",
         "url": "/accounts/{{account_id}}/channels",
         "auth_required": true
+    },
+    "get_summary_stats_queues":{
+        "method": "GET",
+        "url": "/accounts/{{account_id}}/queues/stats_summary",
+        "auth_required": true
+    },
+    "get_summary_stats_agents":{
+        "method": "GET",
+        "url": "/accounts/{{account_id}}/agents/stats_summary",
+        "auth_required": true
     }
 }

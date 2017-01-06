@@ -1,0 +1,7 @@
+{
+    "create_api_auth": {
+        "method": "PUT",
+        "url": "/api_auth",
+        "auth_required": false
+    }
+}
